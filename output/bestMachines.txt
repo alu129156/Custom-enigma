@@ -1,0 +1,5 @@
+MACHINE => R:(1,L) M:(2,E) L:(3,N), Plugboard: MN:CW:PU:KD:YZ:BF:AH:IE:VT:RG, Score: -1303.7047
+MACHINE => R:(1,L) M:(2,E) L:(3,N), Plugboard: EH:LM:TV:RP:OA:QB:JW:NI:ZG:FC, Score: -1314.9215 #
+MACHINE => R:(1,L) M:(2,E) L:(3,N), Plugboard: ZY:DK:RG:PU:TV:IE:BF:MN:HA:WC, Score: -1303.7047
+MACHINE => R:(1,L) M:(2,E) L:(3,N), Plugboard: UI:DK:XF:AL:TY:SP:CW:GO:NE:HM, Score: -1309.3268 #
+MACHINE => R:(1,L) M:(2,E) L:(3,N), Plugboard: HE:AO:ZG:MP:QB:DK:TY:LN:WJ:FC, Score: -1315.6027
