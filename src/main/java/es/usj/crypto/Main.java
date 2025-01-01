@@ -75,9 +75,6 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        //Leer fichero plugs.txt --> Sacar plugs anteriores
-        //Calular las nuevas 150k != a las plugs anteriores --> Set<String> plugs --> Hacerles backtracking a las 150k plugs
-        //Guardar dichas plugs en el fichero (append)
         EnygmaDecrypt ed = new EnygmaDecrypt();
         Set<String> plugsUsedInPreviousIterations = readPlugboardsFromFile("output/plugsUsed.txt");
         List<String> plugboards = ed.generatePlugboard(200000, plugsUsedInPreviousIterations);
