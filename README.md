@@ -3,7 +3,7 @@
 ## 📖Description
 This project provides a tool for decrypting messages encoded with a custom Enigma M3 machine. It uses a combination of **backtracking** and **hill climbing** techniques to optimize the plugboard configuration and find the correct decryption key.
 
-The system explores possible plugboard configurations using backtracking while employing hill climbing to refine and select the most promising configurations.
+The system explores a huge set of possible plugboard configurations using backtracking while employing hill climbing to refine and select the most promising configurations.
 
 ---
 
@@ -24,6 +24,7 @@ Follow these steps to set up and run the decryptor:
     java -jar target/custom-enigma-0.8.0.jar
    ```
     You will run the Main and it will search for the best combination of rotors, testing 52Million plugboards. The result will appear in the console after 20 minutes and will persist in bestMachines.txt.
+    312Million plugboards with the best rotor configuration have already been tested. 200K batch results are in bestMachines.txt.
 ## 🌟Contributors
 - The Enigma M3 encryption is based on this repository: https://github.com/angelborroy/custom-enigma
 - MikePound´s fitness folder: https://github.com/mikepound/enigma
@@ -31,6 +32,6 @@ Follow these steps to set up and run the decryptor:
 The decryptor employs these decryption techniques:
   1. 🧮Fitness: Function that evaluates the quality of the solution based on the entropies of the N-grams.
   2. 🔧Brute Force: For the rotor configuration and the initial positions.
-  3. 🛠️Heuristic : Explores explore the best rated plugboards to identify valid configurations.
+  3. 🛠️Heuristic : Explores the best rated plugboards to identify valid configurations.
       - 🔝Hill Climbing: Optimizes configurations by iteratively selecting those that improve the likelihood of success.
       - 🔙Backtracking: Gives the option to revert to previous plugboard settings, if the search for hillCLimb has been unsuccessful.
