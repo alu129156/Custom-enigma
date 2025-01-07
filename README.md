@@ -1,7 +1,7 @@
 # 🔓Custom Enigma Decryption Tool
 
 ## 📖Description
-This project provides a tool for decrypting messages encoded with a custom Enigma machine. It uses a combination of **backtracking** and **hill climbing** techniques to optimize the plugboard configuration and find the correct decryption key.
+This project provides a tool for decrypting messages encoded with a custom Enigma M3 machine. It uses a combination of **backtracking** and **hill climbing** techniques to optimize the plugboard configuration and find the correct decryption key.
 
 The system explores possible plugboard configurations using backtracking while employing hill climbing to refine and select the most promising configurations.
 
@@ -25,7 +25,7 @@ Follow these steps to set up and run the decryptor:
    ```
     You will run the Main and it will search for the best combination of rotors, testing 52Million plugboards. The result will appear in the console after 20 minutes and will persist in bestMachines.txt.
 ## 🌟Contributors
-- This project is based on this reprository: https://github.com/angelborroy/custom-enigma
+- The Enigma M3 encryption is based on this repository: https://github.com/angelborroy/custom-enigma
 - MikePound´s fitness folder: https://github.com/mikepound/enigma
 ## 🧠How It Works
 The decryptor employs these decryption techniques:
