@@ -26,6 +26,7 @@ Follow these steps to set up and run the decryptor:
     You will run the Main and it will search for the best combination of rotors, testing 52Million plugboards. The result will appear in the console after 20 minutes and will persist in bestMachines.txt.
 ## 🌟Contributors
 - This project is based on this reprository: https://github.com/angelborroy/custom-enigma
+- MikePound´s fitness folder: https://github.com/mikepound/enigma
 ## 🧠How It Works
 The decryptor employs these decryption techniques:
   1. 🧮Fitness: Function that evaluates the quality of the solution based on the entropies of the N-grams.
