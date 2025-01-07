@@ -13,7 +13,7 @@ Follow these steps to set up and run the decryptor:
 1. Clone the repository:
    ```bash
    git clone https://github.com/alu129156/Custom-enigma.git
-   cd custom-enigma
+   cd Custom-enigma
    ```
 2. Build the project with Maven:
    ```bash
